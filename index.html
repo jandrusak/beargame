@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Text Adventure</title>
+    <title>Island Adventure</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="game">
-        <p id="story">Welcome to the Island. Your mission is to escape the bear before he catches you.</p>
-        <p>Quick, straight ahead is a cliff. Would you like to turn left or right?</p>
-        <button onclick="makeChoice('left')">Left</button>
-        <button onclick="makeChoice('right')">Right</button>
+    <div id="gameArea">
+        <div id="textOutput"></div>
+        <div id="userInput">
+            <input type="text" id="userInputText" placeholder="Your choice...">
+            <button onclick="processUserInput()">Submit</button>
+        </div>
+        <div id="bear" style="display: none;"></div>
     </div>
     <script src="script.js"></script>
 </body>
