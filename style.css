@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#game {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
